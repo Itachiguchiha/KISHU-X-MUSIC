@@ -18,7 +18,7 @@ async def must_join_channel(app: Client, msg: Message):
             link = f"https://t.me/{SUPPORT_CHAT_ID}"
             try:
                 await msg.reply_photo(
-                    photo="https://telegra.ph/file/cd02e62dea09e7514c45f.jpg", 
+                    photo="https://telegra.ph/file/4e5ba58028a53a67b2f4f.jpg", 
                     caption=f"๏ ᴀᴄᴄᴏʀᴅɪɴɢ ᴛᴏ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ ʏᴏᴜ'ᴠᴇ ɴᴏᴛ ᴊᴏɪɴᴇᴅ <a href={link}>๏ sᴜᴘᴘᴏʀᴛ ๏</a> ʏᴇᴛ, ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴜsᴇ ᴍᴇ ᴛʜᴇɴ ᴊᴏɪɴ <a href={link}>๏ sᴜᴘᴘᴏʀᴛ ๏</a> ᴀɴᴅ sᴛᴀʀᴛ ᴍᴇ ᴀɢᴀɪɴ ! ",
                     reply_markup=InlineKeyboardMarkup(
                         [

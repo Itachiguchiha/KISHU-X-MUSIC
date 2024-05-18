@@ -5,7 +5,7 @@ from KishuMusic import app
 
 #--------------------------
 
-SUPPORT_CHAT_ID = "JARVIS_V_SUPPORT"
+SUPPORT_CHAT_ID = "infinity_anime_gang"
 #------------------------
 @app.on_message(filters.incoming & filters.private, group=-1)
 async def must_join_channel(app: Client, msg: Message):
